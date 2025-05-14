@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import BulkAddDepartmentForm from '../components/forms/BulkAddDepartmentForm';
+import BulkAddDepartmentForm from '../components/forms/BulkAddDepartmentForm.jsx';
 
 const BulkAddDepartmentPage = () => {
   const navigate = useNavigate();
